@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-KubernetesTaskConsumer-8467fbb0-098a-48ac-bf91-359745b61441</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.5.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Indubit.FlexTaskScheduler.Data\Indubit.FlexTaskScheduler.Data.csproj" />
+    <ProjectReference Include="..\Indubit.FlexTaskScheduler.Models\Indubit.FlexTaskScheduler.Models.csproj" />
+  </ItemGroup>
+</Project>
