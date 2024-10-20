@@ -35,7 +35,7 @@ This project is a distributed task scheduling system designed for handling tasks
 - .NET Core SDK: Ensure you have the .NET Core SDK installed for building and running the project.
 
 ### Database Setup
-Create the required tables in SQL Server:
+Create the required tables in SQL Server using scripts in Scripts folder.
 
 ## Setup
 
