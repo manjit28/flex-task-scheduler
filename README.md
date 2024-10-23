@@ -10,6 +10,9 @@ This project is a distributed task scheduling system designed for handling tasks
 - **Scalable Architecture**: Kafka partitions allow for horizontal scaling of worker instances, distributing task load efficiently.
 - **Task Tracking**: Status of each task (e.g., Pending, Processing, Completed) is tracked, along with details on which worker processed the task.
 
+
+![Sequence Diagram](https://github.com/manjit28/flex-task-scheduler/blob/main/task-scheduler-seq.png?raw=true)
+
 ## Requirements
 - **.NET Core**
 - **Kafka** (for task distribution and partitioning)
